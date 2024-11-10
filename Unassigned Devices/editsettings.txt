@@ -1,9 +1,9 @@
 Enter the User Script that will be using this device=Entrer le script utilisateur qui utilisera cet appareil
 Run in background=Exécuter en arrière-plan
 Mount Device Read only=Monter l'appareil Lecture seule
-Mount Device when Plugged in or Array is Started=Monter le périphérique lorsqu'il est branché ou que l'Array est démarré
-Mount ISO File when Array is Started=Monter le fichier ISO au démarrage de l'Array
-Mount Remote SMB or NFS Share when Array is Started=Monter le partage SMB ou NFS distant au démarrage de l'Array
+Mount Device when Plugged in or Array is Started=Monter le périphérique lorsqu'il est branché ou que la baie est démarré
+Mount ISO File when Array is Started=Monter le fichier ISO au démarrage de la baie
+Mount Remote SMB or NFS Share when Array is Started=Monter le partage SMB ou NFS distant au démarrage de la baie
 Save=Sauvegarder
 Share Device with SMB and NFS=Partager l'appareil avec SMB et NFS
 Share Remote Mount with SMB and NFS=Partager le montage à distance avec SMB et NFS
@@ -19,11 +19,11 @@ Volume=Volume
 :end
 
 :ud_disk_name_plug:
-> Enter the alias name for this device.  This is the name you want to use to refer to this drive.  Leave the name blank and the 'devX' will be assigned.
+> Saisissez le nom d'alias de ce disque. Il s'agit du nom que vous souhaitez utiliser pour désigner ce lecteur. Si vous laissez le nom vide, le nom « devX » sera attribué.
 >
-> **Name:** 8 characters max, spaces converted to '_', minimal special characters allowed, name is case sensitive.
+> **Nom :** 8 caractères maximum, les espaces sont convertis en '_', un minimum de caractères spéciaux est autorisé, le nom est sensible à la casse.
 >
-> **Note:** Cannot contain "dev" as the first characters.  This is reserved for the 'devX' devices.
+> **Note :** Les premiers caractères ne peuvent pas contenir « dev ». Ce caractère est réservé aux appareils « devX ».
 :end
 
 :ud_apfs_volume_plug:
@@ -50,15 +50,15 @@ Volume=Volume
 :end
 
 ; Note: April 28, 2023 - 12 missing translations
-Click the 'Default' button to select the default Device Script File=
-Default=
-Delete Device Script File=
-Device Script content=
-Disable Mount=
-Disk Name=
-Edit Device Script=
-Enter Device Script File Name=
-Enter and Edit the Device Script that runs when a udev or operator event occurs=
-Load the default Device Script=
-Run Device Script File in the background=
-Save your Device Script File changes=
+Click the 'Default' button to select the default Device Script File=Cliquez sur le bouton « Défaut » pour sélectionner le fichier par défaut de script du disque.
+Default=Défaut
+Delete Device Script File=Supprimer le fichier de script du  disque
+Device Script content=Contenu du script du disque
+Disable Mount=Désactiver le montage
+Disk Name=Nom du disque
+Edit Device Script=Modifier le script du disque
+Enter Device Script File Name=Saisir le nom du fichier de script du disque
+Enter and Edit the Device Script that runs when a udev or operator event occurs=Saisir et modifier le script du disque qui s'exécute lorsqu'un événement udev ou opérateur se produit
+Load the default Device Script=Charger le script de disque par défaut
+Run Device Script File in the background=Exécuter le fichier script de disque en arrière-plan
+Save your Device Script File changes=Sauvegarder les modifications apportées au fichier de script de disque
